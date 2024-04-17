@@ -1,0 +1,12 @@
+{
+  "name": "monorepo-project",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "services/*"
+  ],
+  "devDependencies": {
+    "@types/mini-css-extract-plugin": "^2.5.1",
+    "@types/webpack-bundle-analyzer": "^4.7.0"
+  }
+}
